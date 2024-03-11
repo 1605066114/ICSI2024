@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
     <meta name="author" content="Webpixels">
     <title>ICSI 2024</title>
@@ -13,21 +14,8 @@
     <!-- Demo CSS - No need to use these in your project -->
     <link type="text/css" href="./assets/css/demo.css" rel="stylesheet">
   </head>
-  <body>
-
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark py-4">
-    <div class="container" frag="面板1">
-        <h1 class="text-white" >ICSI 2024</h1>
-        <ul class="navbar-nav ml-auto align-items-lg-center background-color: #288cff   height: 30%;">
-        <div frag="窗口1" class="height">
-            <div frag="窗口内容"><a class="site-url" href="{站点URL}"></a>导航栏</div>
-        </div>
-    </ul>
-    </div>
-    </nav> -->
-
-    <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark py-4">
+  <body style="padding-right:0;padding-left:0">
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark">
         <div class="container">
             <h1 class="text-white" >ICSI 2024</h1>
           <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
@@ -37,7 +25,7 @@
                 <a class="nav-link" href="./index.html">HOME</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COMMITTEE</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COMMITTEES</a>
                 <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
                   <a class="dropdown-item" href="./committee/Academic.htm">Academic Committee</a>
                   <a class="dropdown-item" href="./committee/Organization.htm">Organization Committee</a>
@@ -48,7 +36,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SUBMISSIO&PUBLICATION</a>
+                <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SUBMISSIO & PUBLICATION</a>
                 <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
                   <a class="dropdown-item" href="./SUB_PUBLI/Submission.htm">Submission Guidelines</a>
                   <a class="dropdown-item" href="./SUB_PUBLI/Topics.htm">List of Topics</a>
@@ -69,24 +57,25 @@
     
     <main class="main">
         
-      <section class="spotlight parallax bg-cover bg-size--cover" data-spotlight="fullscreen" style="background-image: url('assets/images/backgrounds/img-1.jpg')">
+      <section class="spotlight parallax bg-cover bg-size--cover" data-spotlight="fullscreen" style="background-image: url('assets/images/backgrounds/img-1.jpg');">
         <span class="mask bg-primary alpha-7"></span>
         <div class="spotlight-holder py-lg pt-lg-xl">
           <div class="container d-flex align-items-center no-padding">
             <div class="col">
               <div class="row cols-xs-space align-items-center text-center text-md-left justify-content-center">
-                <div class="col-15">
+                <div class="col-20">
                   <div class="text-center mt-5">
-                    <h2 class="heading display-4 font-weight-400 text-white mt-5 animated" data-animation-in="fadeInUp" data-animation-delay="2000">
-                      <span class="font-weight-600">ICSI 2024: The International Conference on Sensing and Imaging</span>
+                    <h2 class="heading display-4 font-weight-400 text-white mt-5 animated"  data-animation-in="fadeInUp" data-animation-delay="2000">
+                      <span class="font-weight-600" style="font-size: calc(1em + 1vw); width: 200%; ">ICSI 2024: The International Conference on Sensing and Imaging</span>
                     </h2>
                     <p class=" font-weight-500 text-white mt-3 lh-180 c-white animated" data-animation-in="fadeInUp" data-animation-delay="2500">
-                      <h2 class="text-white">Huangshan, China, August 23-27, 2024</h4>
+                      <h2 class="text-white">Huangshan city, China, August 23-27, 2024</h4>
                     </p>
                     <br>
                     <p class="lead font-weight-500 text-white mt-3 lh-180 c-white animated" data-animation-in="fadeInUp" data-animation-delay="2500">
                         University of Science and Technology of China (USTC)<br>
-                        Peking University Health Center, Institute of Medical Technology (PKU-IMT)
+                        Peking University Health Center, Institute of Medical Technology (PKU-IMT)<br>
+                        Sensing and Imaging, a Springer Nature journal
                     </p>
                   </div>
                 </div>
